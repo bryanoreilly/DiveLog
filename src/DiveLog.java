@@ -72,7 +72,7 @@ public class DiveLog {
     private void prepareGUI(){
         mainFrame = new JFrame("Dive Log Examples");
         mainFrame.setSize(600,800);
-        mainFrame.setLayout(new GridLayout(10, 2)); //TODO: fuck the grid layout
+        mainFrame.setLayout(new GridLayout(10, 2)); //TODO: figure out the grid layout
 
         headerLabel = new JLabel("",JLabel.CENTER );
         statusLabel = new JLabel("",JLabel.CENTER);
